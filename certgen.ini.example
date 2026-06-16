@@ -1,0 +1,10 @@
+# Certificate Generator Configuration
+# Deploy to: /etc/certgen/certgen.ini
+# Permissions: chmod 640, chown root:apache
+
+[paths]
+root_ca_dir = /var/www/cgi-bin/certs/root-ca
+sub_ca_dir  = /var/www/cgi-bin/certs/sub-ca
+
+[ca]
+key_password = your-ca-key-password-here
