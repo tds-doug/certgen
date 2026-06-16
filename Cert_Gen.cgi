@@ -2,7 +2,7 @@
 
 ########################################################################
 # Title:   Certificate Generator
-# Author:  Doug Johnson - cloud@seabass.org
+# Author:  Doug Johnson - doug@tinydragonsolutions.com
 # Version: 7.0 (Python rewrite of Perl v6.0)
 #
 # Assumptions:
