@@ -491,7 +491,7 @@ if(param( 'f_csr' ))
       open (CERTFILE, "> $custSubDir/$certFile") or die "Unable to open $certFile for writing $!\n";
       close CERTFILE;
 
-      $command = "/usr/bin/openssl ca -config $subCaDir/sub-ca.conf -in $csrFile -out $custSubDir/$certFile -notext -extensions serverclient_ext -key Bl4ckR!dg3 -batch";
+      $command = "/usr/bin/openssl ca -config $subCaDir/sub-ca.conf -in $csrFile -out $custSubDir/$certFile -notext -extensions serverclient_ext -key <REDACTED> -batch";
     }
     elsif($gwClient eq "addia")
     {
@@ -508,7 +508,7 @@ if(param( 'f_csr' ))
       open (CERTFILE, "> $custSubDir/$certFile") or die "Unable to open $certFile for writing $!\n";
       close CERTFILE;
 
-      $command = "/usr/bin/openssl ca -config $subCaDir/sub-ca.conf -in $csrFile -out $custSubDir/$certFile -notext -extensions serverclient_ext -key Bl4ckR!dg3 -batch";
+      $command = "/usr/bin/openssl ca -config $subCaDir/sub-ca.conf -in $csrFile -out $custSubDir/$certFile -notext -extensions serverclient_ext -key <REDACTED> -batch";
     }
     elsif($gwClient eq "bem")
     {
@@ -525,7 +525,7 @@ if(param( 'f_csr' ))
       open (CERTFILE, "> $custSubDir/$certFile") or die "Unable to open $certFile for writing $!\n";
       close CERTFILE;
 
-      $command = "/usr/bin/openssl ca -config $subCaDir/sub-ca.conf -in $csrFile -out $custSubDir/$certFile -notext -extensions serverclient_ext -key Bl4ckR!dg3 -batch";
+      $command = "/usr/bin/openssl ca -config $subCaDir/sub-ca.conf -in $csrFile -out $custSubDir/$certFile -notext -extensions serverclient_ext -key <REDACTED> -batch";
     }
     elsif($gwClient eq "trustlevel")
     {
@@ -542,7 +542,7 @@ if(param( 'f_csr' ))
       open (CERTFILE, "> $custSubDir/$certFile") or die "Unable to open $certFile for writing $!\n";
       close CERTFILE;
 
-      $command = "/usr/bin/openssl ca -config $subCaDir/sub-ca.conf -in $csrFile -out $custSubDir/$certFile -notext -extensions serverclient_ext -key Bl4ckR!dg3 -batch";
+      $command = "/usr/bin/openssl ca -config $subCaDir/sub-ca.conf -in $csrFile -out $custSubDir/$certFile -notext -extensions serverclient_ext -key <REDACTED> -batch";
     }
     elsif($gwClient eq "endpoint")
     {
@@ -559,7 +559,7 @@ if(param( 'f_csr' ))
       open (CERTFILE, "> $custSubDir/$certFile") or die "Unable to open $certFile for writing $!\n";
       close CERTFILE;
 	      
-      $command = "/usr/bin/openssl ca -config $subCaDir/sub-ca.conf -in $csrFile -out $custSubDir/$certFile -notext -extensions serverclient_ext -key Bl4ckR!dg3 -batch";
+      $command = "/usr/bin/openssl ca -config $subCaDir/sub-ca.conf -in $csrFile -out $custSubDir/$certFile -notext -extensions serverclient_ext -key <REDACTED> -batch";
     }
     elsif ( $gwClient eq 'DEV' )
     {
@@ -570,7 +570,7 @@ if(param( 'f_csr' ))
       open (CERTFILE, "> $custSubDir/$certFile") or die "Unable to open $certFile for writing $!\n";
       close CERTFILE;
 	      
-      $command = "/usr/bin/openssl ca -config $subCaDir/sub-ca.conf -in $csrFile -out $custSubDir/$certFile -notext -extensions serverclient_ext -key Bl4ckR!dg3 -batch";
+      $command = "/usr/bin/openssl ca -config $subCaDir/sub-ca.conf -in $csrFile -out $custSubDir/$certFile -notext -extensions serverclient_ext -key <REDACTED> -batch";
     }
     else
     {
@@ -578,7 +578,7 @@ if(param( 'f_csr' ))
       open (CERTFILE, "> $custSubDir/$certFile") or die "Unable to open $certFile for writing $!\n";
       close CERTFILE;
 
-      $command = "/usr/bin/openssl ca -config $subCaDir/sub-ca.conf -in $csrFile -out $custSubDir/$certFile -notext -extensions serverclient_ext -key Bl4ckR!dg3 -batch";
+      $command = "/usr/bin/openssl ca -config $subCaDir/sub-ca.conf -in $csrFile -out $custSubDir/$certFile -notext -extensions serverclient_ext -key <REDACTED> -batch";
     }
 
     system ($envCommand);
