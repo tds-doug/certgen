@@ -1,8 +1,8 @@
 A#!/usr/bin/perl -w
 
 ########################################################################
-# Title: Inisinet Certificate Generator
-# Author: Doug Johnson - doug.johnson@invisinet.com
+# Title: <Company> Certificate Generator
+# Author: Doug Johnson
 # Version: 6.0
 # Assumptions:
 #   1) Running on Centos 7
